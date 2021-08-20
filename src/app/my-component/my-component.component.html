@@ -1,0 +1,7 @@
+<div *ngFor="let employee of employees">
+  <div [hidden]="!employee.id">
+    {{employee.id}} <br/>
+  </div>
+  {{employee.name}}
+  <hr />
+</div>
